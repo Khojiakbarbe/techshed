@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+
+.getItTouch{
+    width: 80%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 0.9vw;
+    margin-bottom: 13%;
+}
+.getItTouch h1{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 3vw;
+    font-weight: 600;
+
+}
+.contactH5{
+    font-size: 1.3vw;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    font-weight: 700;
+}
+
+
+#contactBtn{
+    color: white;
+    background-color: #751FFF;
+    width: 40%;
+    padding: 2%;
+    font-size: 1vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    border-radius: 30px;
+}
+.contactInput{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#contactBtn:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+.contactCol2{
+    width: 40%;
+}

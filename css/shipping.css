@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+}
+#shippingDiv{
+    text-align: center;
+}
+#shippingDiv h1{
+    font-size: 3vw;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+#shippingDiv h5{
+    font-size: 1.8vw;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.shippingP{
+    font-size: 1vw;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+#helpText{
+    margin-top: -36%;
+}

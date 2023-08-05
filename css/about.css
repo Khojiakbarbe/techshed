@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+}
+.aboutRow{
+    padding: 2%;
+}
+#aboutTechH1{
+    text-align: center;
+    font-size: 3vw;
+}
+#aboutBigImg img{
+    width: 100%;
+    height: 100%;
+}
+#aboutBigImg{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+#aboutLongText{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+/* careers */
+.careersBigDiv{
+    width: 100%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 0.9vw;
+    margin-bottom: 13%;
+}
+.careersBigDiv h3{
+    text-align: center;
+    /* margin-bottom: 5%; */
+    font-size: 3vw;
+    font-weight: 600;
+
+}
+#careersPCheck{
+    font-size: 1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contactInput{
+    padding: 2%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.careersUrlInput{
+    width: 60%;
+    padding: 2%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#careersBtn{
+    color: white;
+    background-color: #751FFF;
+    width: 25%;
+    padding: 1.2%;
+    font-size: 1vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    border-radius: 30px;
+}
+#careersBtn:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+.carees{
+    margin: 0 auto;
+    width: 60%;
+}

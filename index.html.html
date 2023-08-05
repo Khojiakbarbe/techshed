@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/forAll.css">
+    <title>home page</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light myNavbarBg">
+        <div class="container-fluid navbar1Div">
+            <a class="navbar-brand" href="#">
+                <h1>TechShed</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+
+                <div class="navbar1SearchDiv">
+                    <div class="navbarSearchDiv">
+                        <input type="search" placeholder="search" name="" id="">
+                        <button><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg></button>
+                    </div>
+
+                    <span class="favorites">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-suit-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+                        </svg>
+                        <a href="#" id="favorite">Favorites</a>
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-cart2" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div id="fixed">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+              </svg>
+        </a>
+    </div>
+    <!-- Navbar1 over -->
+    <!-- NAvbar 2 start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid navbar1Div">
+            <a class="navbar-brand" href="#">Shop All</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="indexes/computers.html">Camputers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexes/tablets.html">Tablets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexes/droneCamera.html">Drones & Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn dropdown dropdownBtn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Audio
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="button"><a class="href" href="indexes/audioHeadphone.html">Headphones</a></button></li>
+                              <li><button class="dropdown-item" type="button"><a class="href" href="indexes/audioSpeakers.html">Speakers</a></button></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexes/mobile.html">Mobile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexes/tvHome.html">T.V & Home Cinema</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexes/werableTech.html">Wearable Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexes/sale.html">Sale</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade myCarousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <img src="https://static.wixstatic.com/media/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png/v1/fill/w_1899,h_706,al_r,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block corouselText">
+                    <span>Best Prices</span>
+                    <h1>Incredible Prices on All Your Favorite Items</h1>
+                    <p>Get more for less on selected brands</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="https://static.wixstatic.com/media/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png/v1/fill/w_1899,h_706,al_br,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block corouselText">
+                    <span>Best Prices</span>
+                    <h1>Incredible Prices on All Your Favorite Items</h1>
+                    <p>Get more for less on selected brands</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="https://static.wixstatic.com/media/c837a6_f58829a26e594ca3aa72383e19cf39b9~mv2.png/v1/fill/w_1899,h_706,al_r,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_f58829a26e594ca3aa72383e19cf39b9~mv2.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block corouselText">
+                    <span>Best Prices</span>
+                    <h1>Incredible Prices on All Your Favorite Items</h1>
+                    <p>Get more for less on selected brands</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid myContainerFluid">
+        <div class="row myFind">
+            <div class="col-md-6 ">
+                <div class="twoCards">
+                    <img src="https://static.wixstatic.com/media/c22c23_e140bfa8cd6f4cb2ac5ee6e204f64073~mv2.jpg/v1/fill/w_875,h_585,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_e140bfa8cd6f4cb2ac5ee6e204f64073~mv2.jpg"
+                        alt="">
+                    <div class="cards1">
+                        <h5>Holiday Deals</h5>
+                        <h1>Up to 30% off</h1>
+                        <p>Selected Smartphone Brands</p>
+                        <a href="indexes/mobile.html"><button class="shopButton1">Shop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="twoCards">
+                    <img src="https://static.wixstatic.com/media/c837a6_d84a631864a442a496670bc2d787c6a0~mv2.jpg/v1/fill/w_875,h_585,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_d84a631864a442a496670bc2d787c6a0~mv2.jpg"
+                        alt="">
+                    <div class="cards1">
+                        <h5>Just In</h5>
+                        <h1>Take Your Sound Anywear</h1>
+                        <p>Top Headphone Brands</p>
+                        <a href="indexes/audioHeadphone.html"><button class="shopButton2">Shop</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- row 4 pics -->
+        <div class="row  my4PicRow">
+            <div class="col fourCols">
+                <div>
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="21 41.657 157.001 114.861"
+                        viewBox="21 41.657 157.001 114.861" height="200" width="200" xmlns="http://www.w3.org/2000/svg"
+                        data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid--wxd6kpwnh24b">
+                        <defs>
+                            <style>
+                                #comp-km3aq0p4 svg [data-color="1"] {
+                                    fill: #000000;
+                                }
+
+                                #comp-km3aq0p4 svg [data-color="2"] {
+                                    fill: #751FFF;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid--wxd6kpwnh24b"></title>
+                        <g>
+                            <path
+                                d="M175.39 129.667h-5.351c-1.271-12.926-11.875-23.154-24.964-23.831-.036-.126-.071-.252-.127-.374-.641-1.403-15.725-34.436-19.432-41.851-2.948-5.895-5.401-7.887-9.157-7.58a2.608 2.608 0 0 0-1.009-.203H92.228a2.61 2.61 0 1 0 0 5.22h11.656c-1.502 1.22-2.601 2.649-3.253 4.288-1.381 3.47-.265 6.516-.008 7.133l14.542 37.811c.177.46.279.908.303 1.335.123 2.159-.355 3.783-1.46 4.965-2.063 2.206-5.72 2.271-5.744 2.271H83.779a4.11 4.11 0 0 1-3.303-1.648c-8.229-11.151.348-21.995 6.193-27.467a3.838 3.838 0 0 0 .95-4.235 3.85 3.85 0 0 0-3.6-2.45h-35.34a6.834 6.834 0 0 0-4.698 1.872c-3.312 3.113-4.564 6.159-3.722 9.054.791 2.72 3.247 4.442 5.566 5.495-13.32 13.706-15.749 31.661-15.853 32.476a2.608 2.608 0 0 0 2.59 2.94h7.869c-.018.123-.038.245-.038.373 0 11.721 9.536 21.257 21.257 21.257s21.257-9.536 21.257-21.257c0-.128-.02-.25-.038-.373h38.859c-.018.123-.038.245-.038.373 0 11.721 9.536 21.257 21.257 21.257s21.257-9.536 21.257-21.257c0-.128-.02-.25-.038-.373h11.225a2.61 2.61 0 0 0-.001-5.221zm-10.608 0h-42.181c1.292-10.493 10.254-18.646 21.09-18.646s19.799 8.153 21.091 18.646zM52.533 100.323a2.614 2.614 0 0 0-1.206-4.545c-2.215-.431-5.646-1.841-6.057-3.261-.233-.808.621-2.225 2.286-3.79.312-.293.71-.454 1.122-.454H80.76c-2.609 2.807-5.439 6.549-7.2 10.944-2.958 7.382-2.019 14.674 2.714 21.088 1.742 2.36 4.547 3.769 7.504 3.769h24.485c.239 0 5.889-.044 9.52-3.886 2.128-2.253 3.103-5.236 2.897-8.866a9.637 9.637 0 0 0-.643-2.915l-14.559-37.852c-.016-.041-.018-.047-.036-.088-.297-.728-1.473-4.489 4.57-7.007 7.934-3.306 7.936-3.307 10.832 2.487 3.223 6.445 15.613 33.505 18.668 40.186-11.778 1.875-20.991 11.542-22.17 23.534H35.717c1.355-5.957 5.554-19.692 16.816-29.344zm25.151 34.937c0 8.842-7.194 16.036-16.036 16.036s-16.036-7.193-16.036-16.036c0-.128-.02-.25-.038-.373H77.72c-.016.123-.036.246-.036.373zm81.297 0c0 8.842-7.194 16.036-16.036 16.036-8.842 0-16.036-7.193-16.036-16.036 0-.128-.02-.25-.038-.373h32.146c-.016.123-.036.246-.036.373z"
+                                fill="#000000" data-color="1"></path>
+                            <path
+                                d="M64.587 41.657H28.876c-4.343 0-7.876 3.533-7.876 7.877v21.539c0 4.343 3.533 7.877 7.876 7.877h35.711c4.343 0 7.876-3.533 7.876-7.877V49.534c0-4.344-3.533-7.877-7.876-7.877zm2.655 29.416a2.659 2.659 0 0 1-2.655 2.656H28.876a2.659 2.659 0 0 1-2.655-2.656V49.534a2.659 2.659 0 0 1 2.655-2.656h35.711a2.659 2.659 0 0 1 2.655 2.656v21.539z"
+                                fill="#621FCC" data-color="2"></path>
+                        </g>
+                    </svg>
+                </div>
+                <!--  -->
+                <span>Curb-side pickup</span>
+            </div>
+            <div class="col fourCols">
+                <div>
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="22 29.01 158 141.964"
+                        viewBox="22 29.01 158 141.964" height="200" width="200" xmlns="http://www.w3.org/2000/svg"
+                        data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-hdoqdnqpdxg0">
+                        <defs>
+                            <style>
+                                #comp-km3c06wy svg [data-color="1"] {
+                                    fill: #000000;
+                                }
+
+                                #comp-km3c06wy svg [data-color="2"] {
+                                    fill: #751FFF;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid-hdoqdnqpdxg0"></title>
+                        <g>
+                            <path
+                                d="M180 57.344c0-15.623-12.711-28.334-28.334-28.334-15.583 0-28.265 12.646-28.33 28.214L88.453 42.025a2.773 2.773 0 0 0-2.297.035L58.541 55.089a2.779 2.779 0 0 0-1.113.525L23.594 71.578c-.071.033-.13.08-.197.118-.039.022-.082.033-.12.057-.039.025-.073.055-.111.081a2.79 2.79 0 0 0-.441.386c-.02.022-.036.045-.055.067a2.736 2.736 0 0 0-.241.328c-.019.03-.039.059-.056.089a2.797 2.797 0 0 0-.197.418c-.011.029-.019.059-.029.089a2.816 2.816 0 0 0-.101.397c-.005.029-.013.058-.017.088a3.092 3.092 0 0 0-.029.397v65.903c0 1.088.635 2.076 1.624 2.529l61.681 28.197.015.005a2.692 2.692 0 0 0 .628.192c.161.03.324.051.488.052.008 0 .016.003.023.003.19 0 .378-.026.562-.065l.113-.024c.179-.045.354-.106.521-.186.011-.005.024-.007.035-.013l62.562-30.841a2.78 2.78 0 0 0 1.551-2.494V85.674C167.363 85.599 180 72.921 180 57.344zm-92.612-9.717l36.648 15.968a28.307 28.307 0 0 0 7.311 13.467l-13.602 6.705-52.128-25.868 21.771-10.272zm-.972 51.584L31.381 74.052l27.825-13.128 52.266 25.936-25.056 12.351zm-58.855-20.79l56.12 25.655v59.788l-56.12-25.654V78.421zm61.681 85.3v-59.703l26.088-12.86 2.287 25.914a2.78 2.78 0 1 0 5.538-.489l-2.476-28.062 15.349-7.566a28.177 28.177 0 0 0 10.215 4.196v50.472l-57.001 28.098zm62.424-83.604c-12.557 0-22.773-10.216-22.773-22.773s10.216-22.773 22.773-22.773 22.773 10.216 22.773 22.773c0 12.556-10.216 22.773-22.773 22.773z"
+                                fill="#000000" data-color="1"></path>
+                            <path
+                                d="M147.434 68.5h-.041a2.778 2.778 0 0 1-1.956-.846l-7.506-7.747a2.781 2.781 0 0 1 3.994-3.87l5.568 5.746 13.928-13.551a2.781 2.781 0 0 1 3.878 3.986l-15.925 15.494a2.781 2.781 0 0 1-1.94.788z"
+                                fill="#621FCC" data-color="2"></path>
+                        </g>
+                    </svg>
+                </div>
+                <!--  -->
+                <span>
+                    Free shipping on orders over $50</span>
+            </div>
+            <div class="col fourCols">
+                <div>
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="31.078 22 137.843 155.564"
+                        viewBox="31.078 22 137.843 155.564" height="200" width="200" xmlns="http://www.w3.org/2000/svg"
+                        data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-6o8sw-bfblyb">
+                        <defs>
+                            <style>
+                                #comp-km3aqc4u svg [data-color="1"] {
+                                    fill: #000000;
+                                }
+
+                                #comp-km3aqc4u svg [data-color="2"] {
+                                    fill: #751FFF;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid-6o8sw-bfblyb"></title>
+                        <g>
+                            <path
+                                d="M165.922 22h-91.44a3 3 0 0 0-3 3v23.227H43.554c-6.879 0-12.476 5.596-12.476 12.475v113.862a3 3 0 0 0 3 3h91.439a3 3 0 0 0 3-3v-23.227h22.981c.515 0 1.021-.033 1.525-.077.586.072.949.077.97.077.63 0 1.211-.197 1.691-.53 7.588-1.882 13.237-8.732 13.237-16.893V25a2.999 2.999 0 0 0-2.999-3zm-43.404 149.564h-85.44V60.702a6.482 6.482 0 0 1 6.476-6.475h80.761c-1.081 1.815-1.797 4.091-1.797 6.924v110.413zm5.999-91.275V61.15c0-5.235 4.024-6.637 5.111-6.92 6.865.175 7.302 6.121 7.32 7.307v74.748c0 3.978.928 6.897 2.283 9.051h-14.714V80.289zm34.405 53.624c0 5.793-4.337 10.58-9.932 11.315-2.077-.37-6.042-1.986-6.042-8.942V61.538c0-.338-.047-3.396-1.662-6.53-2.255-4.373-6.506-6.781-11.97-6.781H77.481V28h85.44v105.913z"
+                                fill="#000000" data-color="1"></path>
+                            <path
+                                d="M61.465 131.135c-.532 0-1.07-.141-1.557-.439a2.998 2.998 0 0 1-1.003-4.121l33.218-54.572a2.998 2.998 0 1 1 5.124 3.118L64.03 129.694a2.997 2.997 0 0 1-2.565 1.441z"
+                                fill="#621FCC" data-color="2"></path>
+                            <path
+                                d="M63.84 98.509c-8.196 0-14.864-6.668-14.864-14.864 0-8.195 6.668-14.863 14.864-14.863s14.864 6.668 14.864 14.863c0 8.197-6.668 14.864-14.864 14.864zm0-23.726c-4.887 0-8.864 3.976-8.864 8.863s3.977 8.864 8.864 8.864 8.864-3.977 8.864-8.864-3.977-8.863-8.864-8.863z"
+                                fill="#621FCC" data-color="2"></path>
+                            <path
+                                d="M96.465 129.355c-8.196 0-14.864-6.668-14.864-14.864s6.668-14.864 14.864-14.864 14.864 6.668 14.864 14.864-6.668 14.864-14.864 14.864zm0-23.728c-4.887 0-8.864 3.977-8.864 8.864s3.977 8.864 8.864 8.864 8.864-3.977 8.864-8.864-3.977-8.864-8.864-8.864z"
+                                fill="#621FCC" data-color="2"></path>
+                        </g>
+                    </svg>
+                </div>
+                <!--  -->
+                <span>Low prices guaranteed</span>
+            </div>
+            <div class="col fourCols">
+                <div>
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="18.037 24.249 169.427 148.092"
+                        viewBox="18.037 24.249 169.427 148.092" height="200" width="200"
+                        xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true"
+                        aria-labelledby="svgcid--9ozk7l-8p312k">
+                        <defs>
+                            <style>
+                                #comp-km3aq0qx svg [data-color="1"] {
+                                    fill: #000000;
+                                }
+
+                                #comp-km3aq0qx svg [data-color="2"] {
+                                    fill: #751FFF;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid--9ozk7l-8p312k"></title>
+                        <g>
+                            <path
+                                d="M169.8 117c-2.1-.7-4.4.4-5.1 2.5-7.8 23-27.6 39.8-51.5 43.8-34 5.7-66.4-15.7-74.9-48.5l6.4 4.5c.9.6 2 .9 3 .7 1-.2 2-.7 2.6-1.6 1.3-1.8.9-4.3-.9-5.6l-14.6-10.4c-1.8-1.3-4.3-.9-5.6.9L18.8 118c-1.3 1.8-.9 4.3.9 5.6 1.8 1.3 4.3.9 5.6-.9l4.9-6.9c9 37.4 45.7 62 84.2 55.5 26.8-4.5 49-23.4 57.8-49.2.8-2.1-.3-4.4-2.4-5.1z"
+                                fill="#000000" data-color="1"></path>
+                            <path
+                                d="M185.8 77c-1.8-1.3-4.3-.9-5.6.9l-5.2 7.3c-7.1-39.8-45.2-66.7-85.2-59.9-23.8 4-44.2 19.4-54.5 41.2-.9 2-.1 4.4 1.9 5.3 2 .9 4.4.1 5.3-1.9C51.8 50.6 70 36.8 91.2 33.2c35.3-6 68.8 17.4 75.7 52.3l-6.1-4.3c-1.8-1.3-4.3-.9-5.6.9-1.3 1.8-.9 4.3.9 5.6l14.6 10.4c.9.6 2 .9 3 .7 1-.2 2-.7 2.6-1.6l10.4-14.6c1.3-1.8.9-4.3-.9-5.6z"
+                                fill="#000000" data-color="1"></path>
+                            <path
+                                d="M98 124c-.5 0-1.1-.1-1.6-.3-1.5-.6-2.4-2.1-2.4-3.7V51.9c0-2.2 1.8-4 4-4s4 1.8 4 4v58.8l25.8-24.6c1.6-1.5 4.1-1.5 5.7.1 1.5 1.6 1.5 4.1-.1 5.7l-32.5 31c-.9.8-1.9 1.1-2.9 1.1z"
+                                fill="#621fcc" data-color="2"></path>
+                        </g>
+                    </svg>
+                </div>
+                <!--  -->
+                <span> Available to you 24/7 </span>
+            </div>
+        </div>
+
+        <!-- row 6 pics -->
+        <div class="row myRow6Pic">
+            <h2>Best Sellers</h2>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div id="test" class="pics6">
+                    <a href="sdrf.html">
+                        <img src="https://static.wixstatic.com/media/c22c23_75059a72af5e4949aecdfbda8746f4ef~mv2.jpg/v1/fill/w_354,h_354,al_c,q_80,usm_0.66_1.00_0.01/c22c23_75059a72af5e4949aecdfbda8746f4ef~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                
+                <p>Fitboot Inspire Fitness Tracker With Heart Rate Tracking</p>
+                <div><h4>$75.00</h4></div>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="sdrf.html">
+                        <img src="https://static.wixstatic.com/media/c22c23_3ab3d3acd73843deba1dece7b2254e2f~mv2.jpg/v1/fill/w_354,h_354,al_c,q_80,usm_0.66_1.00_0.01/c22c23_3ab3d3acd73843deba1dece7b2254e2f~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                
+                <p>JP Gaming Laptop 15.6" Laptop 256GB</p>
+                <div><h4>$70.00</h4></div>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col">
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_77a52a8e6f8b4879a6548e11a3df3613~mv2.jpg/v1/fill/w_354,h_354,al_c,q_80,usm_0.66_1.00_0.01/c22c23_77a52a8e6f8b4879a6548e11a3df3613~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>HKI Tech Quadcopter Drone With 360 Camera & Controller</p>
+                <div><h4>$85.00</h4></div>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_527e6c6f3d944fb88c80907c2f754afb~mv2.jpg/v1/fill/w_354,h_354,al_c,q_80,usm_0.66_1.00_0.01/c22c23_527e6c6f3d944fb88c80907c2f754afb~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>Smartphone Z Pixel Max 128GB Unlocked</p>
+                <div><h4>$70.00</h4></div>
+            </div>
+            <div class=" col-lg-2 col-md-4 pics6Col">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_0fa2a9bb97f443658acb747221ff337b~mv2.jpg/v1/fill/w_354,h_354,al_c,q_80,usm_0.66_1.00_0.01/c22c23_0fa2a9bb97f443658acb747221ff337b~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>In-ear Noise Cancelling & Isolating Wireless Earbuds</p>
+                <div><h4>$70.00</h4></div>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_35b786fdd0bb443e9ac09561af1569d3~mv2.jpg/v1/fill/w_354,h_354,al_c,q_80,usm_0.66_1.00_0.01/c22c23_35b786fdd0bb443e9ac09561af1569d3~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>Safay GEN 2 256GB VR headset With Touch Controllers</p>
+                <div><h4>$85.00</h4></div>
+            </div>
+            <div class="pics6BtnDiv">
+                <button class="pics6Btn">
+                    <h5>view all</h5>
+                </button>
+            </div>
+        </div>
+
+        <div class="row row5Pics">
+
+            <h2>Shop by Category</h2>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/computers.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_82b44061aa3e4ad6958d2a1ac317199c~mv2.jpg/v1/fill/w_229,h_228,q_90/c837a6_82b44061aa3e4ad6958d2a1ac317199c~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Computers</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/mobile.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_9c30b13d43264ebf888ab1e70eaf2daa~mv2.jpg/v1/fill/w_229,h_228,q_90/c837a6_9c30b13d43264ebf888ab1e70eaf2daa~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Mobiles</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/droneCamera.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_acb2a2d93555449693ae233b93cb3feb~mv2.jpg/v1/fill/w_229,h_228,q_90/c837a6_acb2a2d93555449693ae233b93cb3feb~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Drones & Cameras</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/sale.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_3fae8a0f61fc49c0afe7217c479c8e16~mv2.png/v1/fill/w_229,h_228,q_90/c837a6_3fae8a0f61fc49c0afe7217c479c8e16~mv2.png"
+                            alt="">
+                    </a>
+                </div>
+                <p>Sale</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/tablets.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_6d6b2a5842f449539f528c501e5cc035~mv2.jpg/v1/fill/w_228,h_228,q_90/c837a6_6d6b2a5842f449539f528c501e5cc035~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Tablets</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c837a6_fba39b02bd5c4f43ae6d4e1db77204c5~mv2.png/v1/fill/w_229,h_228,q_90/c837a6_fba39b02bd5c4f43ae6d4e1db77204c5~mv2.png"
+                            alt="">
+                    </a>
+                </div>
+                <p>Best Sellers</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/tvHome.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_7a28e7356d6d4e9dbc6e0b1dfb2ac9b6~mv2.jpg/v1/fill/w_229,h_228,q_90/c837a6_7a28e7356d6d4e9dbc6e0b1dfb2ac9b6~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>T.V & Home Cinema</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/werableTech.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_71e3b067871a4b6a88c3b93a55ba2b00~mv2.jpg/v1/fill/w_229,h_228,q_90/c837a6_71e3b067871a4b6a88c3b93a55ba2b00~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Wearable Tech</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/audioSpeakers.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_e0521967c9bb422abb3a3913f64d1eb5~mv2.jpg/v1/fill/w_229,h_228,q_90/c837a6_e0521967c9bb422abb3a3913f64d1eb5~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Speakers</p>
+            </div>
+            <div class="col-lg-2 col-md-3 pics5Col">
+                <div class="roundImg">
+                    <a href="indexes/audioHeadphone.html">
+                        <img src="https://static.wixstatic.com/media/c837a6_48fba84e8b3c48b48e1b5b493a515a3b~mv2.jpg/v1/fill/w_228,h_228,q_90/c837a6_48fba84e8b3c48b48e1b5b493a515a3b~mv2.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <p>Headphones</p>
+            </div>
+
+            <!--  -->
+
+        </div>
+
+        <!-- best price -->
+        <div class="bestPriceDiv">
+            <div id="bestPriceImg">
+                <img src="https://static.wixstatic.com/media/c837a6_42dd66a436e846648736f4bc9546bf14~mv2.png/v1/fill/w_1525,h_500,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_42dd66a436e846648736f4bc9546bf14~mv2.png"
+                    alt="">
+            </div>
+            <div id="bestPriceText">
+                <h5>Save up to</h5>
+                <h1>$150</h1>
+                <h5>on selected laptop and tablets brands</h5>
+                <p>Terms and conditions apply</p>
+                <a href="indexes/computers.html"><button>Shop</button></a>
+            </div>
+        </div>
+
+        <!-- row 6 pics -->
+        <div class="row myRow6Pic">
+            <h2>On Sale</h2>
+            <div class="col-lg-2 col-md-4 pics6Col">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="">
+                        <img src="https://static.wixstatic.com/media/c22c23_396e7b1e80764edca161180595507710~mv2.jpg/v1/fill/w_373,h_373,al_c,q_80,usm_0.66_1.00_0.01/c22c23_396e7b1e80764edca161180595507710~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>Space Moon Smartwatch With Charger</p>
+                <h4>$70.00</h4>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="sdrf.html">
+                        <img src="https://static.wixstatic.com/media/c22c23_5ccf45bbbdf842e7955635610510f7c3~mv2.jpg/v1/fill/w_373,h_373,al_c,q_80,usm_0.66_1.00_0.01/c22c23_5ccf45bbbdf842e7955635610510f7c3~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>OVE Light Space 5G, 128GB</p>
+                <h4>$70.00</h4>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_c4329067853e4f94a57afc2a226bd5cf~mv2.jpg/v1/fill/w_373,h_373,al_c,q_80,usm_0.66_1.00_0.01/c22c23_c4329067853e4f94a57afc2a226bd5cf~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>Pilates 16" Touch Screen Laptop 24GB Memory</p>
+                <h4>$70.00</h4>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_75b7c7a737a0437f8998a42d8a345a85~mv2.jpg/v1/fill/w_373,h_373,al_c,q_80,usm_0.66_1.00_0.01/c22c23_75b7c7a737a0437f8998a42d8a345a85~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>Turn5 Portable Bluetooth Speaker</p>
+                <h4>$70.00</h4>
+            </div>
+            <div class=" col-lg-2 col-md-4 pics6Col">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_991175ea1f9140648365694757467456~mv2.jpg/v1/fill/w_373,h_373,al_c,q_80,usm_0.66_1.00_0.01/c22c23_991175ea1f9140648365694757467456~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>Journey Glass XD Virtual Reality Headset</p>
+                <h4>$70.00</h4>
+            </div>
+            <div class="col-lg-2 col-md-4 pics6Col ">
+                <div class="pics6Text"><span>SALE</span></div>
+                <div class="pics6">
+                    <a href="#">
+                        <img src="https://static.wixstatic.com/media/c22c23_1fc89607a43a4df9b54dd3a1f9603f25~mv2.jpg/v1/fill/w_373,h_373,al_c,q_80,usm_0.66_1.00_0.01/c22c23_1fc89607a43a4df9b54dd3a1f9603f25~mv2.webp"
+                            alt="">
+                    </a>
+                </div>
+                <p>H1C Indoor Wireless 1080p Network Security Camera</p>
+                <h4>$70.00</h4>
+            </div>
+            <div class="pics6BtnDiv">
+                <a href="#">
+                    <button class="pics6Btn">
+                        <h5>view all</h5>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- today's special -->
+        <div class="bestPriceDiv">
+            <div id="bestPriceImg">
+                <img src="https://static.wixstatic.com/media/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png/v1/fill/w_2288,h_750,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png"
+                    alt="">
+            </div>
+            <div id="todaySpecialText">
+                <span id="todayText">Today's Special</span>
+                <h5>Best Arial View in Town</h5>
+               <div  id="todayH1"> <h1 id="today30">30%</h1><h1>OFF</h1></div>
+                <h5>on professional camera drones</h5>
+                <p>Limited quantitites <br>
+                    See product detail pages for availability
+                </p>
+                <!-- <p>See product detail pages for availability</p> -->
+                <a href="indexes/droneCamera.html"><button>Shop</button></a>
+            </div>
+        </div>
+
+        <!-- brands -->
+        <div id="brands">
+            <div class="row brands">
+                <h2>Brands</h2>
+                <div class=" brandsCol"><h1 id="zadiac">ZADIAC</h1></div>
+                <div class=" brandsCol"><h1 id="zoro">ZORO</h1></div>
+                <div class=" brandsCol"><h1 id="pjk">P J K</h1></div>
+                <div class=" brandsCol"><h1 id="gxl">GXL</h1></div>
+                <div class=" brandsCol"><h1 id="horizon">HORIZON</h1></div>
+            </div>
+        </div>
+
+        <!-- news letter -->
+        <div class="letter">
+            <h2>Newsletter</h2>
+            <p>Sign up to receive updates on new arrivals and special offers</p>
+            
+            <div id="letterEmail">
+            <p>Email*</p>
+            <input type="email" placeholder="Your Email Here">
+            <button>Subscribe</button>
+            </div>
+        </div>
+
+        <!-- need help -->
+        <div class="bestPriceDiv">
+            <div id="bestPriceImg">
+                <img src="https://static.wixstatic.com/media/c22c23_de5cbbefa9104fc1a1604ea146ea523a~mv2.jpg/v1/fill/w_899,h_556,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_de5cbbefa9104fc1a1604ea146ea523a~mv2.jpg"
+                    alt="">
+            </div>
+            <div id="helpText">
+                <h3>Need help? Check Out Our Help Center</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+                <a href="custom support/helpCenter.html"><button>Go to Help Center</button></a>
+            </div>
+        </div>
+
+        <!-- hrefs -->
+        <div class="row hrefs">
+            <div class="col-md-3">
+                <h3>Store Location</h3>
+                <p>500 Terry Francois Street</p>
+                <p>San Francisco, CA 94158</p>
+                <p>info@mysite.com</p>
+                <p>123-456-7890</p>
+                <p>
+                    <!-- facebook -->
+                    <a class="icon" href="https://www.facebook.com/wix">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                          </svg>
+                    </a>
+                    <!-- instagram -->
+                    <a class="icon" href="https://www.instagram.com/wix/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </a>
+                    <!-- twitter -->
+                    <a class="icon" href="https://twitter.com/wix">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                    </a>
+                    <!-- youtube -->
+                    <a class="icon" href="https://www.youtube.com/user/Wix">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                          </svg>
+                    </a>
+                </p>
+            </div>
+            
+            <div class="col-md-3">
+                <h3>Shop</h3>
+                <p><a href="indexes/shopAll.html" class="href">Shop All</a></p>
+                <p><a href="indexes/computers.html" class="href">Computers</a></p>
+                <p><a href="indexes/tablets.html" class="href">Tablets</a></p>
+                <p><a href="indexes/droneCamera.html" class="href">Drones & Cameras</a></p>
+                <p><a href="indexes/audioSpeakers.html" class="href">Audio</a></p>
+                <p><a href="indexes/mobile.html" class="href">Mobile</a></p>
+                <p><a href="indexes/tvHome.html" class="href">T.V & Home Cinema</a></p>
+                <p><a href="indexes/werableTech.html" class="href">Wearable Tech</a></p>
+                <p><a href="indexes/sale.html" class="href">Sale</a></p>
+            </div>
+            
+            <div class="col-md-3">
+                <h3>Customer Support</h3>
+                <p><a href="custom support/contact.html" class="href">Contact Us</a></p>
+                <p><a href="custom support/helpCenter.html" class="href">Help Center</a></p>
+                <p><a href="custom support/aboutUS.html" class="href">About Us</a></p>
+                <p><a href="custom support/aboutUS.html" class="href">Carees</a></p>                
+            </div>
+            
+            <div class="col-md-3">
+                <h3>Policy</h3>
+                <p><a href="support/shippingReturns.html" class="href">Shipping & Returns</a></p>
+                <p><a href="support/Terms&Conditions.html" class="href">Terms & Condition</a></p>
+                <p><a href="support/Terms&Conditions.html" class="href">Payment Methods</a></p>
+                <p><a href="custom support/helpCenter.html" class="href">FAQ</a></p>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div id="overalImgs">
+            <p>We accept the following paying methods</p>
+            <div class="row overalRow">
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/84770f_27001c40036842889a78a72766ad4700~mv2.png/v1/fill/w_69,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Visa.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/c837a6_e8798fcfdaf144478a5c7da1ba28ff2c~mv2.png/v1/fill/w_69,h_43,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/brand-mastercard%403x.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/c837a6_2bd3e20d1e214eccb5e106fc6d1f535d~mv2.png/v1/fill/w_69,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/brand-amex%403x.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/c837a6_52115f99af28419d95a951f226e32e2b~mv2.png/v1/fill/w_69,h_43,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/brand-chinaunionpay%403x.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/c837a6_9378fbd3ef8c470bb89aee12ecbd2209~mv2.png/v1/fill/w_69,h_43,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/brand-jcb%403x.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/84770f_70555dcb450a415d80322cb8d7e82a33~mv2.png/v1/fill/w_65,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Diners.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/84770f_14f105815c3f47bf9001990706915501~mv2.png/v1/fill/w_69,h_44,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Discover.png" alt="">
+                </div>
+                <div class="smallImg">
+                    <img src="https://static.wixstatic.com/media/84770f_8445424a46ca49f39359bf19d4a3e537~mv2.png/v1/fill/w_69,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PayPal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <p id="byTechshed">© 2023 by TechShed. Proudly created with Wix.com</p>
+
+
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- myScripts -->
+    <script src="scripts/homeScript.js"></script>
+    <script src="data/homeData.js"></script>
+</body>
+
+</html>
+
+
+

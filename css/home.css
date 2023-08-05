@@ -1,0 +1,677 @@
+body {
+    background-color: #EDECEC;
+}
+
+/* :root {
+    --main-color: #9BC53D;
+    --font-family: "Lucida Console", "Courier New", monospace;
+} */
+
+/* @media only screen and (max-width: 600px) {
+    .myCarousel{
+        width: 100%;
+    }
+    .corouselText{
+        text-align: left;
+        width: 50%;
+    }
+    .carouselText h1{
+        font-size: 1vw;
+        position: relative;
+        top: 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .myCarousel{
+        width: 100%;
+    }
+    .corouselText{
+        text-align: left;
+    }
+    .carouselText h1{
+        font-size: 2vw;
+        position: relative;
+        top: ;
+    }
+  
+} */
+
+#fixed{
+    width: 3vw;
+    height: 3vw;
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    z-index: 10;
+    text-align: center;
+    padding-top: 1%;
+}
+#fixed a svg{
+    padding: 5%;
+    color: black;
+    background-color: white;
+    /* background-color: var(--main-color); */
+    /* font-family: var(--font-family); */
+    border: 3px outset black;
+    border-radius: 50%;
+    font-weight: 900;
+    width: 100%;
+    height: 3vw;
+}
+#fixed a :hover{
+    transition: 0.6s;
+    transform: rotateZ(360deg);
+    color: white;
+    background-color: black;
+}
+/*  */
+.navbar1Div {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.myNavbarBg {
+    background-color: white;
+}
+
+.navbar1SearchDiv {
+    width: 100%;
+    text-align: end;
+    text-decoration: none;
+}
+
+.navbarSearchDiv {
+    display: inline-block;
+    width: 60%;
+
+}
+
+.navbarSearchDiv input {
+    width: 40%;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 1%;
+}
+
+.navbarSearchDiv button {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: -2%;
+    background-color: #751FFF;
+    color: white;
+}
+
+.navbarSearchDiv button:hover {
+    background-color: black;
+    color: white;
+}
+
+.favorites {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#favorite{
+    color: black;
+}
+
+.corouselText {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    padding: 50px;
+    text-align: left;
+    padding-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.corouselText span {
+    margin-left: 12%;
+    background-color: red;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1vw;
+}
+
+.corouselText h1 {
+    width: 30%;
+    margin-left: 12%;
+    font-size: 350%;
+    font-size: 3vw;
+}
+
+.corouselText p {
+    font-size: 1vw;
+    margin-left: 12%;
+}
+
+.corouselText button {
+    margin-left: 12%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 35px;
+    border: none;
+    background-color: #751FFF;
+    color: white;
+    font-size: 1vw;
+}
+
+.corouselText button:hover {
+    transition: 0.5s;
+    background-color: black;
+}
+
+
+/* container start */
+.myContainerFluid {
+    margin-top: 2%;
+    width: 96%;
+    margin-bottom: 2rem;
+}
+
+.twoCards img {
+    width: 100%;
+    height: 100%;
+    font-size: 10vw;
+}
+
+.twoCards {
+    width: 100%;
+    z-index: 1;
+}
+
+
+.cards1 {
+    padding-top: 5%;
+    z-index: 2;
+    text-align: left;
+    margin-top: -60%;
+    margin-bottom: 31%;
+    padding-left: 5%;
+    color: white;
+}
+
+.cards1 h5 {
+    font-size: 1vw;
+}
+
+.cards1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+}
+
+.cards1 h1 {
+    font-size: 3vw;
+    width: 40%;
+}
+
+.cards1 button {
+    border-radius: 35px;
+    padding: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border: none;
+    font-size: 1vw;
+}
+
+.shopButton1:hover {
+    transition: 0.5s;
+    background-color: rgb(163, 11, 11);
+    color: white;
+    border: 1px solid white;
+}
+
+.shopButton2:hover {
+    transition: 0.5s;
+    background-color: #623BA5;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+/* 2 big card End */
+
+
+
+
+.my4PicRow {
+    background-color: white;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.fourCols {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+    /* border: 1px ridge; */
+}
+
+.fourCols div {
+    float: left;
+    margin-right: 8%;
+
+}
+
+.fourCols div svg {
+    width: 100%;
+    height: 5rem;
+}
+
+.fourCols span {
+    font-size: 150%;
+    font-weight: 700;
+}
+
+/* 6 cols */
+.myRow6Pic {
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+.pics6Col{
+    border: 1px outset rgb(184, 181, 181);
+    padding: 2%;
+}
+.pics6Text {
+    z-index: 3;
+    /* margin-top: -115%; */
+    text-align: left;
+    /* margin-bottom: 120%; */
+}
+
+.pics6Text span {
+    font-size: 1vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: red;
+    color: white;
+}
+
+.pics6 a img {
+    width: 100%;
+    height: 100%;
+}
+
+.pics6 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.pics6 a img:hover {
+    transition: 0.2s;
+    transform: scale(1.3);
+}
+
+.myRow6Pic h2 {
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+
+.myRow6Pic p {
+    font-size: 1vw;
+    margin-top: 2%;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.myRow6Pic div h4 {
+    font-size: 1vw;
+    text-align: left;
+    color: blue;
+}
+
+.pics6BtnDiv {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.pics6Btn {
+    border-radius: 35px;
+    border: none;
+    padding: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #751FFF;
+    color: white;
+}
+
+.pics6Btn:hover {
+    transition: 0.3s;
+    background-color: black;
+
+}
+
+/* 10 imgs */
+
+.row5Pics {
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+    margin-top: 2%;
+    padding-left: 5%;
+    font-size: 2vw;
+}
+.row5Pics h2{
+    font-size: 2vw;
+}
+
+.pics5Col {
+    margin: 1%;
+    overflow: hidden;
+}
+
+.roundImg a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.roundImg {
+    overflow: hidden;
+    width: 100%;
+    /* transition: 0.5s ease-in-out;
+    will-change: transform; */
+    border-radius: 50%;
+}
+
+.roundImg :hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+
+.pics5Col p {
+    font-size: 1vw;
+}
+/* best price */
+.bestPriceDiv{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+#bestPriceImg img{
+    width: 100%;
+    height: 100%;
+}
+#bestPriceImg{
+    width: 100%;
+    height: 35vw;
+}
+#bestPriceText{
+    background-color: white;
+    padding-left: 15%;
+    padding-top: 3%;
+    width: 50%;
+    height: 35vw;
+    z-index: 3;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -37.5%;
+    margin-left: 50%;
+}
+#bestPriceText h5{
+    font-size: 2vw;
+}
+#bestPriceText h1{
+    font-size: 5vw;
+}
+#bestPriceText p {
+    font-size: 1vw;
+}
+#bestPriceText button{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    background-color: #751FFF;
+    border-radius: 25px;
+    border: none;
+}
+#bestPriceText button:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+/* #todaySpecial img{
+    width: 100%;
+    height: 100%;
+}
+#todaySpecial{
+    margin-top: 3%;
+    width: 100%;
+    height: 30vw;
+} */
+#todayText{
+    background-color: red;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
+}
+#todaySpecialText{
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+    height: 35.4vw;
+    z-index: 3;
+    clip-path: polygon(0 0, 80% 0%, 100% 99%, 0 100%);;
+    margin-top: -37.5%;
+    /* margin-left: 53%; */
+}
+
+#todaySpecialText h5{
+    font-size: 2vw;
+}
+#todayH1 h1{
+    display: inline-block;
+    font-size: 4vw;
+}
+#today30{
+    color: blue;
+}
+#todaySpecialText p {
+    font-size: 1vw;
+}
+#todaySpecialText button{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    background-color: #751FFF;
+    border-radius: 25px;
+    border: none;
+}
+#todaySpecialText button:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+
+/* brands */
+#brands{
+    /* width: 100%; */
+    background-color: #fff;
+}
+.brands{
+    padding: 5%;
+}
+.brands h2{
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.brandsCol{
+    width: 20%;
+    text-align: center;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px outset gray;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-weight: 900;
+    opacity: 0.5;
+}
+.brandsCol h1{
+    font-size: 2vw;
+}
+#zadiac{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#zoro{
+    /* font-family:unset ; */
+}
+#pjk{
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#gxl{
+    font-weight: 900;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#horizon{
+    /* font-family: ; */
+}
+/* newsLetter */
+.letter{
+    background-color: #751FFF;
+    margin-top: 3%;
+    padding: 5%;
+    color: white;
+
+}
+.letter h2{
+    font-size: 2vw;
+    text-align: center;
+}
+.letter p {
+    text-align: center;
+    font-size: 1vw;
+}
+#letterEmail{
+    margin: 0 auto;
+    width: 60%;
+    /* border: 1px solid; */
+}
+#letterEmail p {
+    text-align: left;
+}
+#letterEmail input{
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 1vw;
+}
+#letterEmail button{
+    padding: 1.2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+    margin-left: -6%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1vw;
+}
+#letterEmail button:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: #D1B4FF;
+}
+
+/* need help */
+#helpText{
+    background-color: black;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding: 10%;
+    width: 50%;
+    height: 35.4vw;
+    z-index: 3;
+    clip-path: polygon(0 0, 80% 0%, 100% 99%, 0 100%);;
+    margin-top: -37.6%;
+    color: white;
+}
+#helpText h3{
+    font-size: 2vw;
+}
+#helpText p {
+    font-size: 1vw;
+}
+#helpText a button{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    background-color: #751FFF;
+    border-radius: 25px;
+    border: none;
+    font-size: 1vw;
+}
+
+#helpText button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+/*Hrefs */
+.hrefs{
+    margin-top: -2.2%;
+    padding: 5%;
+    background-color: white;
+}
+.href{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hrefs div h3{
+    margin-bottom: 15%;
+    font-size: 2vw;
+}
+.hrefs div p {
+    font-size: 1vw;
+}
+.icon{
+    text-decoration: none;
+    color: gray;
+    margin: 1%;
+}
+
+/* small imgs */
+#overalImgs{
+    background-color: white;
+    padding: 5%;
+}
+#overalImgs p {
+    text-align: center;
+    font-size: 0.8vw;
+    margin-bottom: 2%;
+}
+.overalRow{
+    width: 70%;
+    margin: 0 auto;
+}
+.smallImg img {
+    width: 100%;
+    height: 100%;
+}
+.smallImg{
+    width: 12.5%;
+    height: 3vw;
+}
+
+
+/* byTechshed */
+#byTechshed{
+    text-align: center;
+    font-size: 1vw;
+}

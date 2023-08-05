@@ -1,0 +1,65 @@
+.dropdownBtn{
+    background-color: #EDECEC;
+    color: black;
+    border: none;
+}
+.dropdownBtn:hover{
+    background-color: #EDECEC;
+    color: black;
+}
+.shopAll{
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+#myRow{
+    font-size: 1.2vw;
+}
+.checkboxesDiv{
+    padding: 10%;
+}
+.checkboxesDiv span{
+    font-size: 2vw;
+}
+.checkboxes{
+    cursor: pointer;
+    font-size: 1vw;
+}
+.checkboxes:hover{
+    color: gray;
+}
+.checkboxesColor{
+    color: black;
+    font-weight: 500;
+}
+.myColBorder{
+    border: 1px solid rgb(178, 172, 172);
+}
+.myCols{
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    width: 100%;
+    padding: 1%;
+}
+.img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+.discount{
+    text-decoration: line-through;
+    color: blue;
+    font-size: 1.3vw;
+}
+.price{
+    color: blue;
+    font-size: 1.3vw;
+}
+
